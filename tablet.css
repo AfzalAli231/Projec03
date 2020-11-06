@@ -1,0 +1,10 @@
+@media (min-width: 768px) {
+  .hero .left {
+    display: none;
+  }
+  .hero .right {
+    padding-top: 5rem;
+    padding-left: 2rem;
+  }
+}
+  
