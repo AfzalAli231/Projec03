@@ -120,38 +120,32 @@ header {
     margin: 0 auto;
 }
 /* Navbar */
-#nav {
+#navbar {
     background-color: #333;
     color: #fff;
     display: flex;
     justify-content: space-between;
+    padding: 2rem;
     }
 
-    #nav .header-image {
-        padding-top: 1.5rem;
-    }
-
-#nav a {
-    text-decoration: none;
+#navbar a {
     color: #fff;
 }
 
-#nav ul {
+#navbar ul {
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#nav ul  a {
-    margin-right: 1rem;
+#navbar ul li a {
     padding: 1.7rem;
     margin: 0.5rem;
-    text-decoration: none;
 }
 
-#nav ul a:hover {
-    background-color: #008b13;
+#navbar ul li a:hover {
+    background-color: #3d3d;
     border-radius: 0.5rem;
 }
 

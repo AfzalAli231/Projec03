@@ -13,15 +13,16 @@
     .container {
         max-width: 540px;
     }
-        /* Navbar */
-        #nav {
-            width: 100vw;
-            background-color: #333333;
-            font-size: 0.5rem;
-          }
-          .header-image {
-              display: none;
-          }
+    /* Navbar */
+    #navbar {
+        width: 100vw;
+        margin-right: 10rem;
+        background-color: #333333;
+        font-size: 1rem;
+      }
+      #navbar .logo {
+          display: none;
+      }
 /* Hero */
 .container {
     max-width: 540px;
@@ -29,8 +30,6 @@
 /* Services */
 .services-container {
     border: 2px #3d3d solid;
-    display: flex;
-    flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
