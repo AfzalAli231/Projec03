@@ -23,6 +23,10 @@
       #navbar .logo {
           display: none;
       }
+        #services .none {
+        display: none;
+      }
+    
 /* Hero */
 .container {
     max-width: 540px;

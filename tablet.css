@@ -19,5 +19,8 @@
   .hero {
     margin-top: 10rem;
   }
+  #services .none {
+    display: none;
+  }
 }
   
