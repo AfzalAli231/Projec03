@@ -7,46 +7,81 @@
 
     body,
     html {
-        width: 100vw;
-        height: 100vh;
-    }
-    header #nav {
-        width: 30px;
+        width: 100%;
+        height: 100%;
     }
     .container {
         max-width: 540px;
     }
+        /* Navbar */
+        #nav {
+            width: 100vw;
+            background-color: #333333;
+            font-size: 0.5rem;
+          }
+          .header-image {
+              display: none;
+          }
+/* Hero */
+.container {
+    max-width: 540px;
+}
+/* Services */
+.services-container {
+    border: 2px #3d3d solid;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.service-box {
+    border: 1px dotted #00923c;
+    width: 100%;
+    height: 10%;
+}
+/* Work */
+#work .card-wrapper {
+    border: 2px #3d3d solid;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 /* Hero */
 header {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%, 0 100%);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%, 0 100%);
 }
 
 .hero h6 {
-    padding: 3rem 0;
-    padding-top: 5rem;
+padding: 3rem 0;
+padding-top: 6rem;
 }
 .hero .right {
-    padding-left: 1rem;
+padding-left: 1rem;
 }
 .hero .left {
-    display: none;
+display: none;
 }
 /* About */
+#about {
+    background: url(./images/man-2.png) no-repeat center center/cover;
+}
+#about .right p {
+    color: burlywood;
+}
 #about .left {
     display: none;
 }
-#contact .card-wrapper .map {
+#work {
+    display: grid;
+    grid-template-columns: (2,1fr);
+}
+#blog {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%, 0 100%);
+}
+#contact .card-wrapper {
     display: none;
 }
-    /* Footer */
-#footer {
-    background-color: #333;
-    width: 100vw;
-    color: #fff;
-    text-align: center;
-    margin-top: 38rem;
-    font-size: 1.4rem;
-    position: sticky;
-}
-
 }

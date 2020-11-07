@@ -6,5 +6,18 @@
     padding-top: 5rem;
     padding-left: 2rem;
   }
+  span
+  {
+      display: block;
+  }
+  ul li{
+      display: block;
+  }
+  ul{
+      display: none;
+  }
+  .hero {
+    margin-top: 10rem;
+  }
 }
   
