@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="utilities.css">
     <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="tablet.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
@@ -80,7 +81,7 @@
               </section>
       <!-- Services -->
       <section id="services">
-        <div id="services">
+        <div id="services"  data-aos="fade-right">
           <div class="inner-width">
             <h1 class="section-title focus-in-contract-bck">Our Services</h1>
             <div class="border"></div>
@@ -161,7 +162,7 @@
           <h1 class="focus-in-contract-bck"><span>Our</span> Work</h1>
           <p>We provide high standard clean website for your bussiness.</p>
       
-          <div class="card-wrapper">
+          <div class="card-wrapper"  data-aos="fade-right">
             <div class="card">
               <div class="overlay">
                 <span>Category</span>
@@ -220,7 +221,7 @@
           <p>We provide high standard clean website for your bussiness solutions</p>
           </div>
       
-          <div class="card-wrapper">
+          <div class="card-wrapper"  data-aos="fade-right">
               <div class="card">
                 <div class="img-wrapper">
                   <img class="scale-down-center" src="./images/article-ph-1.png" alt="">
@@ -257,7 +258,7 @@
         <h1 class="focus-in-contract-bck">Contact <span>Us</span></h1>
         <p>We provide high standard clean website for your bussiness solutions</p>
       </div>
-      <div class="card-wrapper">
+      <div class="card-wrapper"  data-aos="fade-right">
         <div class="flex-1 card">
           <i class="fas fa-mobile fa-3x"></i>
           <h1>Call Us On</h1>
@@ -301,5 +302,11 @@
         <p>Copyright 2020 &copy;  . All Right Reserved.</p>
       </div>
       </footer>
+      <script 
+      src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+      </script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>
